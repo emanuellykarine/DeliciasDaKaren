@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="../imagens/logo_menor.ico">
+    <link rel="stylesheet" href="../CSS/Produtos.css">
+    <link rel="stylesheet" href="../CSS/HeaderFooter.css">
+    <script src="https://kit.fontawesome.com/ba5cad4261.js" crossorigin="anonymous"></script>
+    <script async src="../JavaScript/script.js" text="text/javascript"></script>
+
+    <title>Combos | Delícias da Karen</title>
+</head>
+
+<body>
+    <header>
+        <div id="header-content">
+            <h1 id="logo-area">
+                <a href="index.html">
+                    <picture>
+                        <source media="(min-width:900px)" srcset="../imagens/Logo.png">
+                        <img src="../imagens/Logo2.png" alt="logo do site">
+                    </picture>
+                </a>
+            </h1>
+            <nav>
+                <a href="carrinho.html"><i class="fa-solid fa-cart-shopping logo-carrinho"
+                        style="font-size: 36px; color: white;"></i> </a>
+                <ol class="menu">
+                    <li><a href="produtosDoces.html">DOCES</a></li>
+                    <li><a href="produtosSalgados.html">SALGADOS</a></li>
+                    <li><a href="combos.html">COMBOS</a></li>
+                    <li><a href="carrinho.html">CARRINHO<i class="fa-solid fa-cart-shopping"
+                                style="margin-left:5px; color: white;"></i></a></li>
+                </ol>
+                <button class="hamburguer"><i class="fa fa-bars logo-hamburguer"
+                        style="font-size:36px; color:white;"></i></button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>COMBOS</h2>
+        <div id="container">
+            <div class="produtos">
+                <img class="imagem-produto" src="../imagens/imagensCombos/barcaSeD.png"
+                    alt="Foto de barca com doces e salgados">
+                <h3 class="titulo-produto">Barca doces e salgados</h3>
+                <p class="valor-produto">R$ 35,00</p>
+                <button type="button" class="encomenda">Encomendar</button>
+            </div>
+            <div class="produtos">
+                <img class="imagem-produto" src="../imagens/imagensCombos/barcaDoces.png" alt="Foto de barca de doces">
+                <h3 class="titulo-produto">Barca de Doces</h3>
+                <p class="valor-produto">R$ 25,00</p>
+                <button type="button" class="encomenda">Encomendar</button>
+            </div>
+            <div class="produtos">
+                <img class="imagem-produto" src="../imagens/imagensCombos/barcaSalgados.png"
+                    alt="Foto de barca de salgados">
+                <h3 class="titulo-produto">Barca de Salgados</h3>
+                <p class="valor-produto">R$ 15,00</p>
+                <button type="button" class="encomenda">Encomendar</button>
+            </div>
+            <div class="produtos">
+                <img class="imagem-produto" src="../imagens/imagensCombos/kitfesta.png" alt="Foto de kit festa">
+                <h3 class="titulo-produto">Kit Festa</h3>
+                <p class="valor-produto">R$ 60,00</p>
+                <button type="button" class="encomenda">Encomendar</button>
+            </div>
+
+        </div>
+        <div id="abrir-modal">
+            <div id="modal-container" class="modal">
+                <i class="fa-solid fa-cart-shopping" style="color: #935ABF; font-size: 30px; margin-bottom: 1em;"></i>
+                <p>PRODUTO ADICIONADO AO CARRINHO!</p>
+                <button type="button" id="fechar">CONTINUAR COMPRANDO</button>
+                <a href="carrinho.html"><button type="button" id="buttonCarrinho">IR PARA O CARRINHO</button></a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="formulario">
+            <p>RECEBA NOVIDADES E PROMOÇÕES</p>
+            <form>
+                <input type="text" id="nome" placeholder="Seu nome">
+                <input type="email" id="email" placeholder="Seu e-mail">
+                <button id="buttonSubmit">OK</button>
+            </form>
+        </div>
+        <div id="dados-footer">
+            <figure><a href="index.html"><img src="../imagens/Logo.png" alt="Logo do site"></a></figure>
+            <div id="redes-sociais">
+                <p>REDES SOCIAIS</p>
+                <a
+                    href="https://www.instagram.com/delicias_da_karen0?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+                        class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+            <div id="central-atendimento">
+                <p>CENTRAL DE ATENDIMENTO</p>
+                <div class="whatsapp">
+                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                    <p>(84) 94444-4444</p>
+                </div>
+                <div class="email">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <p>contato@gmail.com.br</p>
+                </div>
+                <p style="font-weight: 300;">Rua Dona Izabel de Brito Lima | Igapó</p>
+            </div>
+        </div>
+        <p>© Delícias da Karen | Doces e Salgados. 2024. Todos os direitos reservados. Emanuelly Karine</p>
+    </footer>
+</body>
+
+</html>
