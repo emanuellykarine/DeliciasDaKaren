@@ -363,7 +363,7 @@ button#buttonCarrinho{
 
 @media screen and (max-width: 480px) {
     .menu{
-        top: 11vh;
+        top: 6vh;
         width: 38vw;
     }
 
