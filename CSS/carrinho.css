@@ -12,6 +12,10 @@
     --cinza-claro:rgb(158, 158, 158);
 }
 
+header{
+    height: 80px;
+}
+
 body{
     background-color: var(--roxo-secundario);
 }
